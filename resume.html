@@ -1,0 +1,201 @@
+<html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khaled Albrahim | Resume</title>
+<head>
+<style>
+/* ===== General Styles ===== */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  max-width: 900px;
+  background-color: #f9f9f9;
+}
+
+a {
+  color: #0073b1; /* LinkedIn blue */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 10px 0 20px 0;
+}
+
+/* ===== Header ===== */
+header {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #333;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+header p {
+  margin: 5px 0;
+  font-size: 0.95rem;
+}
+
+header a {
+  display: block;
+  margin-top: 5px;
+  font-size: 0.95rem;
+}
+
+/* ===== Section Styles ===== */
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  font-size: 1.4rem;
+  color: #222;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+section h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+section p {
+  margin-bottom: 10px;
+}
+
+ul {
+  margin: 5px 0 15px 20px;
+  padding: 0;
+}
+
+/* ===== Two-Column Layout for Skills & Languages (Optional) ===== */
+.skills-languages {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.skills-languages > section {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* ===== Emphasis Styles ===== */
+strong {
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+<div id="header"></div>
+<div class="left"></div>
+<div class="stuff">
+  <h1>Khaled Albrahim</h1>
+  <p>0531140181 | khaled..k.albrahim@gmail.com | Riyadh</p>
+  <a href="www.linkedin.com/in/khaled-albrahim-d13"><p>www.linkedin.com/in/khaled-albrahim-d13</p></a>
+  <h2>Professional Summary</h2>
+  <hr />
+  <p>Computer Science/Network Engineering graduate with practical experience in cloud computing, virtualization, and 
+network administration. Completed a 6-month training program at SDAIA, focusing on VMware vSphere, ESXi, and 
+vCenter for managing enterprise virtualization environments. Skilled in network configuration, troubleshooting, and 
+security fundamentals, with a strong foundation in programming, anomaly detection, and deploying scalable cloud 
+solutions. Motivated to apply technical expertise and a quick learning ability to support IT operations and cloud 
+infrastructure growth.</p>
+<h2>Professional Experience</h2>
+<hr />
+<h4>SDAIA | Cloud Computing Trainee</h4>
+<h4>Riyadh, Saudi Arabia | Jan 2025 – Aug 2025</h4>
+<ul>
+<li>Managed VMware ESXi clusters and vCenter hosts, ensuring system performance and high availability.</li>
+<li>Assisted in configuring and maintaining virtualized environments for enterprise workloads. </li>
+<li>Monitored system health and supported troubleshooting of virtualization and networking issues.</li>
+<li>Gained exposure to cloud infrastructure operations and best practices in scalability and uptime management.</li>
+</ul>
+<h2>Education </h2>
+<hr />
+<p>King Saud University | Bachelor of Computer Science – Network Engineering | Riyadh | 2025 </p>
+<h2>Training & Certifications </h2>
+<hr />
+<ul>
+<li>Oracle Certified Foundations Associate </li>
+<li>Google Cloud Associate Cloud Engineer – Tuwaiq </li>
+<li>Python 101–104 (Satr, 2024)</li>
+</ul>
+<h2>Projects <h2>
+<hr />
+<h4>Personal VPN & Proxy Server Deployment | 2025 </h4>
+<ul>
+<li>Deployed a secure VPN on AWS EC2 using Xray-core (VLESS + REALITY), including Elastic IP assignment, 
+security group configuration, and domain management. </li>
+<li>Configured TCP tunneling with stealth encryption to ensure reliability in restricted networks. </li>
+<li>Gained hands-on experience in Linux server administration, cloud networking, and secure service deployment.</li>
+</ul>
+<h4>Network Anomaly Detection | 2024 </h4>
+<ul>
+<li>Designed and implemented a system to detect abnormal network behavior. </li>
+<li>Applied machine learning algorithms (SVM, Random Forest, Logistic Regression) for automated monitoring.</li>
+<li>Enhanced skills in data analysis, network security, and model training.</li>
+</ul>
+<h4>Local Area Network Setup | 2023 </h4>
+<ul>
+<li>Configured DNS, Web, and FTP servers, managed IP assignments via DHCP.  </li>
+<li>Designed and implemented VLAN segmentation to improve performance and security. </li>
+<li>Developed hands-on skills in enterprise network deployment and troubleshooting. </li>
+</ul>
+<h2>Skills</h2>
+<hr />
+<h4>Soft Skills</h4>
+<p>Problem Solving | Critical Thinking | Effective Communication | Team Collaboration | Time Management | Quick Learner| 
+Social Media Awareness | Presentations </p>
+<h4>Professional Skills </h4>
+<p>Cloud Infrastructure | Virtualization (VMware vSphere, ESXi, vCenter) | Network Troubleshooting | Security Monitoring | IT 
+Support | System Optimization | Technical Documentation </p>
+<h4>Technical Skills </h4>
+<p>Python | Java | PHP | JavaScript | SQL | Oracle Cloud | Google Cloud | VLAN | LAN | DHCP | DNS | OSPF | IPv4 | SMTP 
+| FTP | Linux Administration </p>
+<h2>Languages</h2>
+<hr />
+<ul>
+<li>Arabic: Native</li>
+<li>English: Advanced </li>
+</ul>
+<h2>Visitors</h2>
+<p id="visitor-count">Loading...</p>
+
+<script>
+const API_URL = "https://y9jydeoszf.execute-api.eu-north-1.amazonaws.com/prod/count"; // replace with sam output
+
+async function updateVisitorCount() {
+  try {
+    const res = await fetch(API_URL);
+    const data = await res.json();
+    document.getElementById('visitor-count').textContent = 'Visitors: ' + data.count;
+  } catch (err) {
+    console.error(err);
+    document.getElementById('visitor-count').textContent = 'Visitors: N/A';
+  }
+}
+updateVisitorCount();
+
+</script>
+
+
+
+</body>
+</html>
